@@ -10,8 +10,8 @@ int main(void)
 
 	for(i = 0; i < 52; i++)
 	{
-		putchar(alpha[i]);
+		_putchar(alpha[i]);
 	}
-	putchar("\n");
+	_putchar("\n");
 	return (0);
 }
