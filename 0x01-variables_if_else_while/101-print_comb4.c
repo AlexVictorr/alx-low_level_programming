@@ -11,15 +11,15 @@ int main(void)
 	{
 		for (digit2 = digit1 + 1; digit2 <= '9'; digit2++)
 		{
-			for (digit3 = digit 2 + 1; digit3 <= '9'; digit3++)
+			for (digit3 = digit2 + 1; digit3 <= '9'; digit3++)
 			{
-				if (digit2 != digit1)
+				if ((digit2 != digit1) != digit3)
 				{
 					putchar(digit1);
 					putchar(digit2);
 					putchar(digit3);
 				}
-				if (digit1 == 7'' && digit2 == '8')
+				if (digit1 == '7' && digit2 == '8')
 					continue;
 
 				putchar(',');
