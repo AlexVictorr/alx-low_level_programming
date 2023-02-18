@@ -7,10 +7,10 @@
  */
 int main(void)
 {
-	char alpha[25] = "abcdefghijklmnopqrstuvwxyz";
+	char alpha[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
 
-	for (i = 0; i <= 25; i++)
+	for (i = 0; i < 26; i++)
 	{
 		if (i != 4 && i != 16)
 		{
