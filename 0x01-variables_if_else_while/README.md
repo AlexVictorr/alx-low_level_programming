@@ -8,3 +8,4 @@ if the last digit of n is greater than 5: the string and is greater than 5, if t
 4-print_alphabt.c prints the alphabet in lowercase, followed by a new line. Print all the letters except q and e. only use the putchar function (every other function (printf, puts, etc…) is forbidden). code should be in the main function. only use putchar twice in your code.
 5-print_numbers.c prints all single digit numbers of base 10 starting from 0, followed by a new line.
 6-print_numberz.c prints all single digit numbers of base 10 starting from 0, followed by a new line. not allowed to use any variable of type char, only use the putchar function (every other function (printf, puts, etc…) is forbidden), only use putchar twice in your code.
+7-print_tebahpla.c prints the lowercase alphabet in reverse, followed by a new line. only use the putchar function (every other function (printf, puts, etc…) is forbidden), only use putchar twice in your code.
