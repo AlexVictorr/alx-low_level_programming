@@ -10,13 +10,13 @@ void print_to_98(int n)
 	{
 		if (n == 98)
 		{
-			_putchar(n);
+			_putchar(n + '0');
 			_putchar('\n');
 			break;
 		}
 		else
 		{
-			_putchar(n);
+			_putchar(n + '0');
 			_putchar(44);
 			_putchar(32);
 		}
@@ -25,13 +25,13 @@ void print_to_98(int n)
 	{
 		if (n == 98)
 		{
-			_putchar(n);
+			_putchar(n + '0');
 			_putchar('\n');
 			break;
 		}
 		else
 		{
-			_putchar(n);
+			_putchar(n + '0');
 			_putchar(44);
 			_putchar(32);
 		}
