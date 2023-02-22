@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 /**
  * print_times_table - prints the sum of all multiples of 3 or 5 up to 1024
  * Return: Always (success)
@@ -15,6 +15,6 @@ int main(void)
 		}
 		i++;
 	}
-	_putchar(z + '0');
+	putchar(z + '0');
 	return (0);
 }
