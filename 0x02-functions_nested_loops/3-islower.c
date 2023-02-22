@@ -5,11 +5,9 @@
  */
 int _islower(int c)
 {
-	char l;
-
-	for (l = 'a'; l <= 'z')
+	if (c = 'a'; c <= 'z')
 	{
-		_putchar(l);
+	return (1)
 	}
-	return (1);
+	return (0)
 }
