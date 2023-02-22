@@ -14,8 +14,8 @@ int main(void)
 		k += j;
 		if (k % 2 == 0)
 			sum += k;
-			j = k - j;
-			++I;
+		j = k - j;
+		++I;
 	}
 	printf("%ld\n", sum);
 	return (0);
