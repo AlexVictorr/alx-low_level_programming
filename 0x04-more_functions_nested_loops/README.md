@@ -8,3 +8,4 @@
 6-print_line.c - draws a straight line in the terminal. Where n is the number of times the character _ should be printed, The line should end with a \n, If n is 0 or less, the function should only print \n.
 7-print_diagonal.c - draws a diagonal line on the terminal. n is the number of times the character \ should be printed, The diagonal should end with a \n, If n is 0 or less, the function should only print a \n.
 8-print_square.c - prints a square, followed by a new line. Where size is the size of the square, If size is 0 or less, the function should print only a new line.
+9-fizz_buzz.c - prints the numbers from 1 to 100, followed by a new line.But for multiples of three print Fizz instead of the number and for the multiples of five print Buzz. For numbers which are multiples of both three and five print FizzBuzz.
