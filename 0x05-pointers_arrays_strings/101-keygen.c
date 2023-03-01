@@ -21,7 +21,7 @@ int main(void)
 		return (1);
 	}
 
-	char *password = malloc(length + 1);
+	char *password [length + 1];
 	char *numbers = "0123456789";
 	int numbers_length = strlen(numbers);
 	char *lowercase = "abcdefghijklmnopqrstuvwxyz";
