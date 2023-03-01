@@ -20,15 +20,15 @@ int main(void)
 	{
 		return (1);
 	}
+	int numbers_length = strlen(numbers);
+	int lowercase_length = strlen(lowercase);
+	int uppercase_length = strlen(uppercase);
+	int specials_length = strlen(specials);
 	char *password = malloc(length + 1);
 	char *numbers = "0123456789";
-	int numbers_length = strlen(numbers);
 	char *lowercase = "abcdefghijklmnopqrstuvwxyz";
-	int lowercase_length = strlen(lowercase);
 	char *uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	int uppercase_length = strlen(uppercase);
 	char *specials = "!@#$%^&*()";
-	int specials_length = strlen(specials);
 
 	srand(time(NULL) * getpid());
 	for (int i = 0; i < length; i++)
