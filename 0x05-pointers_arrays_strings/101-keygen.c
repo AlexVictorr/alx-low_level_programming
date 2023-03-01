@@ -10,7 +10,7 @@
  */
 int main(void)
 {
-	int length, i;
+	int length;
 
 	printf("Enter the length of password: ");
 
@@ -21,6 +21,7 @@ int main(void)
 		return (1);
 	}
 
+	int i;
 	char *password[length + 1];
 	char *numbers = "0123456789";
 	int numbers_length = strlen(numbers);
