@@ -10,7 +10,7 @@
  */
 int main(void)
 {
-	int length;
+	int length, i;
 
 	printf("Enter the length of password: ");
 
@@ -32,7 +32,7 @@ int main(void)
 	int specials_length = strlen(specials);
 
 	srand(time(NULL) * getpid());
-	for (int i = 0; i < length; i++)
+	for (i = 0; i < length; i++)
 	{
 			int char_type = rand() % 4;
 
