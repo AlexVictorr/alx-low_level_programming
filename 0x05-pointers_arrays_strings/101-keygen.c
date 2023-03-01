@@ -33,6 +33,7 @@ int main(void)
 	for (int i = 0; i < length; i++)
 	{
 			int char_type = rand() % 4;
+
 		if (char_type == 0)
 		{
 			password[i] = numbers[rand() % numbers_length];
