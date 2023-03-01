@@ -11,7 +11,6 @@
 int main(void)
 {
 	int length, i;
-	char *password = malloc(length + 1);
 	char *numbers = "0123456789";
 	int numbers_length = strlen(numbers);
 	char *lowercase = "abcdefghijklmnopqrstuvwxyz";
@@ -24,6 +23,7 @@ int main(void)
 	printf("Enter the length of password: ");
 
 	scanf("%d", &length);
+	char *password = malloc(length + 1);
 
 	srand(time(NULL) * getpid());
 	for (i = 0; i < length; i++)
@@ -49,5 +49,6 @@ int main(void)
 	}
 	password[length] = '\0';
 	printf("%s\n", password);
+	free(password);
 }
 
