@@ -21,9 +21,7 @@ int main(void)
 	int specials_length = strlen(specials);
 
 	printf("Enter the length of password: ");
-
 	scanf("%d", &length);
-
 	char *password = malloc(length + 1);
 
 	srand(time(NULL) * getpid());
