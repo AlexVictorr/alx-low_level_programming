@@ -10,8 +10,9 @@
  */
 int main(void)
 {
-	printf("Enter the length of password: ");
 	int length;
+
+	printf("Enter the length of password: ");
 
 	scanf("%d", &length);
 
