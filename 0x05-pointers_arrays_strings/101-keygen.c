@@ -50,5 +50,6 @@ int main(void)
 	password[length] = '\0';
 	printf("%s\n", password);
 	free(password);
+	return (0);
 }
 
