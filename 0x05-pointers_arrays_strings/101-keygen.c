@@ -21,7 +21,6 @@ int main(void)
 		return (1);
 	}
 
-	int i;
 	char *password[length + 1];
 	char *numbers = "0123456789";
 	int numbers_length = strlen(numbers);
@@ -33,6 +32,8 @@ int main(void)
 	int specials_length = strlen(specials);
 
 	srand(time(NULL) * getpid());
+	int i;
+
 	for (i = 0; i < length; i++)
 	{
 			int char_type = rand() % 4;
