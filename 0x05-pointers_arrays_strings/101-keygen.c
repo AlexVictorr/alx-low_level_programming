@@ -10,17 +10,7 @@
  */
 int main(void)
 {
-	int length;
-
-	printf("Enter the length of password: ");
-
-	scanf("%d", &length);
-
-	if (length <= 0)
-	{
-		return (1);
-	}
-
+	int length, i;
 	char *password = malloc(length + 1);
 	char *numbers = "0123456789";
 	int numbers_length = strlen(numbers);
@@ -31,9 +21,11 @@ int main(void)
 	char *specials = "!@#$%^&*()";
 	int specials_length = strlen(specials);
 
-	srand(time(NULL) * getpid());
-	int i;
+	printf("Enter the length of password: ");
 
+	scanf("%d", &length);
+
+	srand(time(NULL) * getpid());
 	for (i = 0; i < length; i++)
 	{
 			int char_type = rand() % 4;
