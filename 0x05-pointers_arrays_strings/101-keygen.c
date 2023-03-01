@@ -23,6 +23,7 @@ int main(void)
 	printf("Enter the length of password: ");
 
 	scanf("%d", &length);
+
 	char *password = malloc(length + 1);
 
 	srand(time(NULL) * getpid());
