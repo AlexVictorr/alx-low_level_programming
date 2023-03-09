@@ -8,6 +8,9 @@ char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
 void print_chessboard(char (*a)[8]);
 void print_diagsums(int *a, int size);
+int is_palindrome(char *s);
+int comparator(char *s, int a1, int a2);
+int _strlen_recursion(char *s);
 char *_memcpy(char *dest, char *src, unsigned int n);
 char *_memset(char *s, char b, unsigned int n);
 
