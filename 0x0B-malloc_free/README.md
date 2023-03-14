@@ -28,3 +28,9 @@
 -Each element of the grid should be initialized to 0.
 -The function should return NULL on failure.
 -If width or height is 0 or negative, return NULL.
+
+
+###(4-free_grid.c)
+
+- frees a 2 dimensional grid previously created by your alloc_grid function.
+- Note that we will compile with your alloc_grid.c file. Make sure it compiles.
