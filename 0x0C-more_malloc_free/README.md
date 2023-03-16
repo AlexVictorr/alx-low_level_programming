@@ -22,3 +22,11 @@
 - If nmemb or size is 0, then _calloc returns NULL.
 If malloc fails, then _calloc returns NULL.
 
+
+###(3-array_range.c)
+
+- creates an array of integers.
+- The array created should contain all the values from min (included) to max (included), ordered from min to max.
+- Return: the pointer to the newly created array.
+- If min > max, return NULL.
+- If malloc fails, return NULL.
