@@ -34,3 +34,11 @@
 
 - frees a 2 dimensional grid previously created by your alloc_grid function.
 - Note that we will compile with your alloc_grid.c file. Make sure it compiles.
+
+
+###(100-argstostr.c)
+
+- concatenates all the arguments of your program.
+- Returns NULL if ac == 0 or av == NULL.
+- Returns a pointer to a new string, or NULL if it fails.
+- Each argument should be followed by a \n in the new string.
